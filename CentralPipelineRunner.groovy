@@ -1,4 +1,4 @@
-def myQuickConfig = readTrusted 'jetstream.yaml'
+def myQuickConfig = readTrusted 'Jenkinsfile.TSM-266'
 echo "Processing the following config..."
 echo "${myQuickConfig}"
 
