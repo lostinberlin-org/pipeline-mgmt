@@ -1,4 +1,4 @@
-def myQuickConfig = readTrusted 'jetstream.yaml'
+def myQuickConfig = readTrusted 'ci.yaml'
 echo "Processing the following config..."
 echo "${myQuickConfig}"
 
